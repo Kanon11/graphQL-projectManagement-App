@@ -12,4 +12,4 @@ const ProjectSchema = new mongoose.Schema({
         ref:'client'
     }
 })
-module.exports = mongoose.model('project', ProjectSchema);
+module.exports = mongoose.model('Project', ProjectSchema);

@@ -5,4 +5,4 @@ const ClientSchema = new mongoose.Schema({
     email: { type: String },
     phone: { type: String },
 })
-module.exports = mongoose.model('client', ClientSchema);
+module.exports = mongoose.model('Client', ClientSchema);
